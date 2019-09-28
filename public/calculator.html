@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Coursys - Formula Tester</title>
+  <link rel="stylesheet" href="css/calculator.css"/>
+  <script src="js/calculator.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div>
+      <header></header>
+      <div id="content">
+        <h1>Grade Calculator</h1>
+        <div id="calculator">
+          <h2>Activities</h2>
+          <p>Give grades to the numeric activities:</p>
+          <table id="gradeTable">
+            <tr>
+              <th>Name</th>
+              <th>Short Name</th>
+              <th>Weight</th>
+              <th>Grade</th>
+              <th>Percent</th>
+            </tr>
+            <form>
+              <tr>
+                <td>Activity 1</td>
+                <td>A1</td>
+                <td><input type="number" pattern="\d+"></td>
+                <td>
+                  <input type="number"><b>/</b>
+                  <input type="number" pattern="\d+">
+                </td>
+                <td></td>
+              </tr>
+            </form>
+            <form>
+              <tr>
+                <td>Activity 2</td>
+                <td>A2</td>
+                <td><input type="number" pattern="\d+"></td>
+                <td>
+                  <input type="number"><b>/</b>
+                  <input type="number" pattern="\d+">
+                </td>
+                <td></td>
+              </tr>
+            </form>
+            <form>
+              <tr>
+                <td>Activity 3</td>
+                <td>A3</td>
+                <td><input type="number" pattern="\d+"></td>
+                <td>
+                  <input type="number"><b>/</b>
+                  <input type="number" pattern="\d+">
+                </td>
+                <td></td>
+              </tr>
+            </form>
+            <form>
+              <tr>
+                <td>Activity 4</td>
+                <td>A4</td>
+                <td><input type="number" pattern="\d+"></td>
+                <td>
+                  <input type="number"><b>/</b>
+                  <input type="number" pattern="\d+">
+                </td>
+                <td></td>
+              </tr>
+            </form>
+          </table>
+          <h2>Result</h2>
+          <p id="result"></p>
+          <button type="button" id="meanButton">MEAN</button>
+          <button type="button" id="weightedButton">WEIGHTED</button>
+          <button type="button" id="addRowButton">ADD ROW</button>
+          <button type="button" id="clearButton">CLEAR ALL</button>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+  </div>
+</body>
+</html>

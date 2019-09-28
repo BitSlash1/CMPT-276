@@ -1,0 +1,119 @@
+#container {
+	width: 90%;
+	min-width: max-content;
+	margin: 0 auto;
+	max-width: 1520px;
+	background: white;
+}
+
+#content {
+	padding-top: 30px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 35px;
+}
+
+#calculator {
+	padding-top: 10px;
+	padding-bottom: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #E9EEF1;
+	width: max-content;
+}
+
+body {
+	background: #A7192E;
+}
+
+div {
+	display: block;
+}
+
+header {
+	background: #3B3B34;
+	height: 25px;
+	width: 100%;
+}
+
+footer {
+	background: #3B3B34;
+	height: 25px;
+	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #afb6ba;
+	width: 120px;
+	text-align: left;
+	padding: 3px;
+}
+
+th {
+	background: #DEDCDF;
+	font-family: Helvetica serif;
+	font-size: 10pt;
+	font-weight: 1000;
+}
+
+td {
+	font-family: Helvetica serif;
+	font-size: 10pt;
+}
+
+form {
+	display: inline-table;
+	margin: 2px;
+}
+
+input {
+	max-width: 50px;
+	display: inline-table;
+	margin: 2px;
+}
+
+h1 {
+	font-family: Arial, Helvetica serif;
+	font-size: 1.6em;
+	font-weight: 500;
+}
+
+h2 {
+	font-family: Helvetica serif;
+	color: #d90909;
+	font-size: 16px;
+	font-weight: 1000;
+}
+
+p {
+	font-family: Helvetica serif;
+	font-size: 10pt;
+}
+
+body {
+	margin: 0px;
+}
+
+button {
+	font-family: Helvetica, sans-serif;
+	float: right;
+	color: white;
+	border-style: none;
+	background-color: #cc122e;
+	outline-color: #cc122e;
+	margin: 5px;
+	font-size: 10pt;
+	padding: 5px;
+	min-width: 85px;
+	font-weight: 550;
+	box-shadow: none;
+	border-radius: 4px;
+}
+
+#result {
+	font-size: 12pt;
+}
