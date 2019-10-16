@@ -1,0 +1,55 @@
+/*credit to http://www.imaputz.com/cssStuff/bigFourVersion.html for scrollable table styling help*/
+
+#container {
+	width: 85%;
+	min-width: max-content;
+	margin: 0 auto;
+	max-width: 1520px;
+	background: white;
+}
+
+#content {
+	padding: 30px;
+}
+
+body {
+	background: #0aab4d;
+}
+
+div {
+	display: block;
+}
+
+header {
+	background: #111212;
+	height: 30px;
+	width: 100%;
+}
+
+footer {
+	background: #111212;
+	height: 30px;
+	width: 100%;
+}
+
+table {
+	border-collapse: separate;
+}
+
+th, td {
+	border: 1px solid #afb6ba;
+	text-align: left;
+	padding: 3px;
+}
+
+th {
+	background: #e0e0e0;
+}
+
+td {
+	font-size: 10pt;
+}
+
+h1 {
+	font-family: sans-serif;
+}
